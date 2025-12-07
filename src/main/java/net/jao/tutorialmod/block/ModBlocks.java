@@ -27,7 +27,8 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .instabreak()
+                    .strength(0.2f)
+                    .requiresCorrectToolForDrops()
                     .sound(SoundType.SLIME_BLOCK)));
 
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
