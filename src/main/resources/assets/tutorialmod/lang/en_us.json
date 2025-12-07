@@ -3,5 +3,6 @@
   "item.tutorialmod.raw_bismuth": "Raw Bismuth",
 
   "block.tutorialmod.bismuth_block": "Bismuth Block",
-  "block.tutorialmod.bismuth_ore": "Bismuth Ore"
+  "block.tutorialmod.bismuth_ore": "Bismuth Ore",
+  "block.tutorialmod.test_block": "Test Block"
 }

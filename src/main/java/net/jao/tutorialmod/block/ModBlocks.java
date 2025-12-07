@@ -25,6 +25,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
 
+    public static final DeferredBlock<Block> TEST_BLOCK = registerBlock("test_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.SLIME_BLOCK)));
+
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
