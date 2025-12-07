@@ -66,6 +66,7 @@ public class TutorialMod {
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.BISMUTH_ORE);
             event.accept(ModBlocks.TEST_BLOCK);
+            event.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
         }
 
     }
