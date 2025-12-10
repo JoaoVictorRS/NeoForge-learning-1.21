@@ -34,14 +34,14 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
-                            .strength(0.3f)
+                            .strength(0.5f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(4, 6),
                     BlockBehaviour.Properties.of()
-                            .strength(0.3f)
+                            .strength(0.7f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));
 
